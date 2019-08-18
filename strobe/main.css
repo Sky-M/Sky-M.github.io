@@ -1,0 +1,16 @@
+body{
+    animation: strobe 0.05s infinite alternate;
+}
+
+h1{
+    text-align: center;
+}
+  
+@keyframes strobe {
+    from {
+        background-color: white;
+    }
+    to{
+        background-color: black;
+    }
+}
